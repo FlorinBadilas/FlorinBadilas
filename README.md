@@ -38,7 +38,7 @@ I am deeply passionate about systems programming, operating systems, and network
 
 Here are some of the key projects I've worked on.
 
-### 1. From Kernel to Userspace | C/C++ | (https://github.com/FlorinBadilas/Mini-Libc)
+### 1. From Kernel to Userspace | C/C++ | [https://github.com/FlorinBadilas/Mini-Libc]
 * Engineered a minimalistic, freestanding C standard library ("mini-libc") for Linux (x86_64), implementing critical functions by leveraging direct kernel system calls exclusively.
 * Designed a custom memory allocator (malloc, free, realloc) from scratch, managing memory maps (mmap, munmap) and recreating core POSIX I/O primitives.
 
