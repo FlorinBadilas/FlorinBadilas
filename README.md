@@ -42,19 +42,19 @@ Here are some of the key projects I've worked on.
 * Engineered a minimalistic, freestanding C standard library ("mini-libc") for Linux (x86_64), implementing critical functions by leveraging direct kernel system calls exclusively.
 * Designed a custom memory allocator (malloc, free, realloc) from scratch, managing memory maps (mmap, munmap) and recreating core POSIX I/O primitives.
 
-### 2. Mastering Process Control | C/C++ | (https://github.com/FlorinBadilas/Mini-Shell)
+### 2. [Mastering Process Control](https://github.com/FlorinBadilas/Mini-Shell) | C/C++ 
 * Engineered a POSIX-compliant shell capable of process creation (fork, exec), complex I/O redirection (<, >, 2>), and piping (|) by managing raw file descriptors.
 * Architected a robust parser to manage operator precedence (`|` > `&&` / `||` > `&` > `;`) and implemented short-circuit logic for conditional execution.
 
-### 3. OOP Design Patterns in Practice | Java | (https://github.com/FlorinBadilas/Tourist-Application)
+### 3. [OOP Design Patterns in Practice] (https://github.com/FlorinBadilas/Tourist-Application) | Java 
 * Architected a data-centric backend using the **Singleton** pattern for centralized database state and **OOP inheritance** to model complex entities.
 * Implemented an event-driven notification system (via the **Observer** pattern) and built a robust custom exception hierarchy.
 
-### 4. Network Protocol Engineering | C/C++ | (https://github.com/FlorinBadilas/Web-Client)
+### 4. [Network Protocol Engineering](https://github.com/FlorinBadilas/Web-Client) | C/C++ 
 * Developed a CLI client from the ground up, using raw TCP sockets to manually construct and transmit HTTP requests (GET, POST, DELETE) to a live RESTful API.
 * Engineered robust client-side state management for JWT authentication (sending `Authorization` headers) and handled data serialization by building/parsing JSON payloads.
 
-### 5. Deconstructing High-Level Logic | C/C++ | (https://github.com/FlorinBadilas/C-to-Asm-Compiler)
+### 5. [Deconstructing High-Level Logic](https://github.com/FlorinBadilas/C-to-Asm-Compiler) | C/C++
 * Engineered a custom C-to-x86 transpiler, implementing a parser to map high-level arithmetic (MUL, DIV), logic (XOR), and shift (SHL) operations to raw assembly.
 * Architected the complete control-flow logic, translating C-like `if-else` blocks and `for`/`while` loops into complex branching sequences using `CMP` and conditional jumps (`JNE`, `JGE`).
 
