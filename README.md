@@ -46,7 +46,7 @@ Here are some of the key projects I've worked on.
 * Engineered a POSIX-compliant shell capable of process creation (fork, exec), complex I/O redirection (<, >, 2>), and piping (|) by managing raw file descriptors.
 * Architected a robust parser to manage operator precedence (`|` > `&&` / `||` > `&` > `;`) and implemented short-circuit logic for conditional execution.
 
-### 3. [OOP Design Patterns in Practice] (https://github.com/FlorinBadilas/Tourist-Application) | Java 
+### 3. [OOP Design Patterns in Practice](https://github.com/FlorinBadilas/Tourist-Application) | Java 
 * Architected a data-centric backend using the **Singleton** pattern for centralized database state and **OOP inheritance** to model complex entities.
 * Implemented an event-driven notification system (via the **Observer** pattern) and built a robust custom exception hierarchy.
 
